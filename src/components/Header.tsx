@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   return (
     <header className="site-header container">
       <a className="brand" href="#inicio">
-        <img src="/LOGOLEMANS.JPG" alt="Taller YOA" />
+        <img src="/LOGOLEMANS.JPG" alt="Taller YOA" style={{width:120,height:120}} />
         <div>
           <div className="title">TALLER WE ARE LEMANS S.L.</div>
           <div style={{fontSize:12,color:'#94a3b8'}}>Chapa y pintura</div>
