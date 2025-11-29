@@ -8,9 +8,9 @@ const Contact: React.FC = () => {
         <div>
           <div className="info">
             <p><strong>Teléfono:</strong> <a href="tel:+34916584937">916 58 49 37</a></p>
-            <p><strong>Email:</strong> <a href="mailto:info@talleryoa.com">info@talleryoa.com</a></p>
-            <p><strong>Dirección:</strong> Calle Principal 123, 28000 Madrid</p>
-            <p><strong>Horario:</strong> Lun-Vie 9:00 - 18:00 · Sab 10:00 - 14:00</p>
+            <p><strong>Email:</strong> <a href="mailto:info@talleryoa.com">info@lemans88.eu</a></p>
+            <p><strong>Dirección:</strong> Calle Avenida de la Luz 2, 28860, Paracuellos de Jarama, Madrid</p>
+            <p><strong>Horario:</strong> Lun-Vie 7:00 - 15:00</p>
           </div>
         </div>
 

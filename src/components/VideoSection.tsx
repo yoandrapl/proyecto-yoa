@@ -19,7 +19,7 @@ const VideoSection: React.FC = () => {
         ) : (
           <iframe
             className="video-iframe"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+            src="https://www.youtube.com/embed/cL8W90M2lqs?autoplay=1"
             title="Video del Taller YOA"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen

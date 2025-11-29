@@ -5,7 +5,7 @@ const About: React.FC = () => {
     <div className="about container">
       <h2>Sobre nosotros</h2>
       <p>
-        Taller YOA es un taller familiar con más de 15 años de experiencia en
+        We are Lemans es un taller familiar con más de 15 años de experiencia en
         chapa y pintura. Trabajamos con aseguradoras y particulares, garantizando
         calidad y tiempos de entrega ajustados.
       </p>

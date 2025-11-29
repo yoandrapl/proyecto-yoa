@@ -4,10 +4,10 @@ const Home: React.FC = () => {
   return (
     <div className="hero container">
       <div>
-        <h1>Recuperamos la apariencia de tu coche</h1>
+        <h1>Restauramos tu vehículo con perfección</h1>
         <p>
-          Profesionales en reparación de chapa y pintura con acabados duraderos
-          y garantía. Presupuesto rápido y atención personalizada.
+          Especializados en reparación de chapa y pintura con acabados premium.
+          Garantía en cada trabajo, presupuestos sin compromiso y atención personalizada.
         </p>
         <div className="actions">
           <a className="btn" href="#contacto">Pedir presupuesto</a>
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
       </div>
 
       <div>
-        <img src="/hero.svg" alt="Ilustración taller" style={{width:'100%',borderRadius:12}} />
+        <img src="/lemans.png" alt="Ilustración taller" style={{width:'100%',borderRadius:12}} />
       </div>
     </div>
   )
