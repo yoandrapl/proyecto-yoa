@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import Home from './pages/Home'
 import Services from './pages/Services'
+import VideoSection from './components/VideoSection'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
@@ -16,6 +17,9 @@ function App() {
         </section>
         <section id="servicios">
           <Services />
+        </section>
+        <section id="video">
+          <VideoSection />
         </section>
         <section id="sobre">
           <About />
