@@ -30,8 +30,8 @@ function App() {
       </main>
       <footer className="site-footer">
         <div className="container">
-          <p>© {new Date().getFullYear()} Taller YOA — Chapa y Pintura</p>
-          <p>Dirección: C/ Ejemplo 123, 28000 Madrid · Tel: <a href="tel:+34600111222">600 111 222</a></p>
+          <p>© {new Date().getFullYear()} Taller WE ARE LEMANS S.L. — Chapa y Pintura</p>
+          <p>Dirección: Calle Principal 123, 28000 Madrid · Tel: <a href="tel:+34916584937">916 58 49 37</a></p>
         </div>
       </footer>
     </div>

@@ -7,10 +7,10 @@ const Contact: React.FC = () => {
       <div className="contact-grid">
         <div>
           <div className="info">
-            <p><strong>Teléfono:</strong> <a href="tel:+34600111222">600 111 222</a></p>
+            <p><strong>Teléfono:</strong> <a href="tel:+34916584937">916 58 49 37</a></p>
             <p><strong>Email:</strong> <a href="mailto:info@talleryoa.com">info@talleryoa.com</a></p>
-            <p><strong>Dirección:</strong> C/ Ejemplo 123, 28000 Madrid</p>
-            <p><strong>Horario:</strong> Lun-Vie 9:00 - 18:00</p>
+            <p><strong>Dirección:</strong> Calle Principal 123, 28000 Madrid</p>
+            <p><strong>Horario:</strong> Lun-Vie 9:00 - 18:00 · Sab 10:00 - 14:00</p>
           </div>
         </div>
 
