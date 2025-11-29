@@ -1,34 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
+import Header from './components/Header'
+import Home from './pages/Home'
+import Services from './pages/Services'
+import About from './pages/About'
+import Contact from './pages/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="site">
+      <Header />
+      <main>
+        <section id="inicio">
+          <Home />
+        </section>
+        <section id="servicios">
+          <Services />
+        </section>
+        <section id="sobre">
+          <About />
+        </section>
+        <section id="contacto">
+          <Contact />
+        </section>
+      </main>
+      <footer className="site-footer">
+        <div className="container">
+          <p>© {new Date().getFullYear()} Taller YOA — Chapa y Pintura</p>
+          <p>Dirección: C/ Ejemplo 123, 28000 Madrid · Tel: <a href="tel:+34600111222">600 111 222</a></p>
+        </div>
+      </footer>
+    </div>
   )
 }
 
