@@ -15,10 +15,10 @@ const Contact: React.FC = () => {
         </div>
 
         <div>
-          <form onSubmit={(e) => { e.preventDefault(); alert('Formulario demo: envíe un email a info@talleryoa.com') }}>
-            <input placeholder="Nombre" required />
-            <input placeholder="Teléfono o email" required />
-            <textarea placeholder="Descripción del daño / mensaje" rows={4} required />
+          <form action="mailto:info@lemans88.eu" method="post" encType="text/plain">
+            <input name="nombre" placeholder="Nombre" required />
+            <input name="contacto" placeholder="Teléfono o email" required />
+            <textarea name="mensaje" placeholder="Descripción del daño / mensaje" rows={4} required />
             <button type="submit">Enviar</button>
           </form>
         </div>
